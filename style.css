@@ -1,0 +1,73 @@
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    
+}
+
+.main-title {
+    background-color: rgba(255, 99, 71, 0.5);
+    border: 10px solid black;
+    color: white;
+    padding: 10px;
+}
+
+/* الحاوية الرئيسية كتقسم الشاشة لزوج: نص فـ اليسار وصورة فـ اليمين */
+.magazine-container {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* الجانب الأيسر كياخد 50% ديال المساحة وكيحط الفقرات عمودياً تحت بعضياتهم */
+.text-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.article-text {
+    background-color: Tomato;
+    color: white;
+    padding: 15px;
+    margin: 0;
+}
+
+/* الجانب الأيمن كياخد 50% ديال المساحة للصورة */
+.article-image {
+    flex: 1;
+    margin: 0;
+}
+
+.article-image img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    color: orange;
+    font-weight: bold;
+    margin-top: 5px;
+}
